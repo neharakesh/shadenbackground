@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "background-paths",
+  "homepage": "https://example.com",
+  "type": "registry:block",
+  "title": "Background Paths Block",
+  "description": "A fancy background animation with floating paths and animated button.",
+  "items": [
+    {
+      "name": "demo-background-paths",
+      "title": "Demo Background Paths",
+      "description": "Displays floating animated paths with a call-to-action button",
+      "files": [
+        {
+          "path": "src/components/background/background.tsx",
+          "type": "registry:component",
+          "content": "import * as React from 'react';\nimport { BackgroundPaths } from './background-paths';\n\nexport function DemoBackgroundPaths() {\n  return <BackgroundPaths title=\"Background Paths\" />;\n}"
+        }
+      ],
+      "type": "registry:block"
+    }
+  ]
+}
